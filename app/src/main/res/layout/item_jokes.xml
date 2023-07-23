@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_chuckjoke"
+        android:layout_width="128dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/img_chuck"
+        android:src="@drawable/chucknorris" />
+
+    <TextView
+        android:id="@+id/tv_chuckjoke"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_joke"
+        android:textAlignment="center"
+        />
+
+    <View
+        android:id="@+id/view_linechuck"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+
+</LinearLayout>

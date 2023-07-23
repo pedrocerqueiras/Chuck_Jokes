@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chuck Jokes</string>
+    <string name="img_chuck">imagem do chuck norris</string>
+    <string name="txt_joke">O tempo não espera por ninguém. A menos que esse homem seja Chuck Norris.</string>
+</resources>
